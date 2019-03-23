@@ -26,3 +26,6 @@ $(call inherit-product, vendor/omni/config/common.mk)
 ALLOW_MISSING_DEPENDENCIES=true
 
 PRODUCT_NAME := omni_rolex
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.keystore=msm8937
