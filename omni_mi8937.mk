@@ -17,7 +17,7 @@
 # Specify phone tech before including full_phone
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
-$(call inherit-product, device/xiaomi/rolex/full_rolex.mk)
+$(call inherit-product, device/xiaomi/mi8937/full_mi8937.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
@@ -25,7 +25,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Allow missing dependenciea
 ALLOW_MISSING_DEPENDENCIES=true
 
-PRODUCT_NAME := omni_rolex
+PRODUCT_NAME := omni_mi8937
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.keystore=msm8937
