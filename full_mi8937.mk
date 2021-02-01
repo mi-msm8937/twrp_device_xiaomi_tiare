@@ -27,7 +27,7 @@ PRODUCT_PACKAGES += \
 
 # Kernel
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/kernel:kernel
+    $(LOCAL_PATH)/prebuilts/kernel:kernel
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mi8937
