@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_mi8937.mk \
-	$(LOCAL_DIR)/full_mi8937.mk
+	$(LOCAL_DIR)/omni_tiare.mk \
+	$(LOCAL_DIR)/full_tiare.mk

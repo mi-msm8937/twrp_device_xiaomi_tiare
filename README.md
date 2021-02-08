@@ -1,4 +1,4 @@
 TeamWin Recovery Project
 
-Device configuration for Xiaomi MSM8937  (_mi8937_)
+Device configuration for Xiaomi Redmi Go  (_tiare_)
 =====================================================
