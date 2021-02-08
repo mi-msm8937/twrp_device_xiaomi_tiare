@@ -81,16 +81,9 @@ RECOVERY_SDCARD_ON_DATA := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_USE_TOOLBOX := true
 TW_HAS_EDL_MODE := true
-TW_EXTRA_LANGUAGES := true
 
 # Disable Mouse Cursor
 TW_INPUT_BLACKLIST := "hbtp_vm"
-
-# exFAT FS Support
-TW_INCLUDE_FUSE_EXFAT := true
-
-# NTFS Support
-TW_INCLUDE_FUSE_NTFS := true
 
 # OrangeFox
 OF_ALLOW_DISABLE_NAVBAR := 1
