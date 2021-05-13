@@ -17,3 +17,5 @@
 PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/omni_tiare.mk \
 	$(LOCAL_DIR)/full_tiare.mk
+
+COMMON_LUNCH_CHOICES += omni_tiare-eng omni_tiare-userdebug

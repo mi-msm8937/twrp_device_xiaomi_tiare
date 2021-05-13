@@ -25,10 +25,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcryptfs_hw
 
-# Kernel
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilts/kernel:kernel
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tiare
 PRODUCT_NAME := full_tiare
